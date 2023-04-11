@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/sobh4.jpg);
+    background-size: cover;
+}
+.div0 , .div2 , .div4 , .div6{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    animation-name: change;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    z-index: 10;
+}
+@keyframes change{
+   0%{
+    left: 20px;
+   }
+   100%{
+    left: 1050px;
+   }
+}
+.div0{
+    background-image: url(../images/sobh2.jpg);
+    background-size: cover;
+}
+.div2{
+    animation-delay: 10s;
+    margin-top: 600px;
+    background-image: url(../images/key1.jpg);
+    background-size: cover;
+}
+.div4{
+    animation-delay: 20s;
+    margin-top: 1200px;
+    background-image: url(../images/key2.jpg);
+    background-size: cover;
+}
+.div6{
+    margin-top: 1800px;
+    animation-delay: 30s;
+    background-image: url(../images/key3.jpg);
+    background-size: cover;
+}
+/* /////////////////////////////////////////////////////////////////// */
+.div1 , .div3 , .div5 , .div7{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    animation-name: change2;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
+    /* animation-direction: reverse; */
+    z-index: 10;
+    margin-left: 1050px;
+}
+@keyframes change2{
+    0%{
+     right: 20px;
+    }
+    100%{
+     right: 1050px;
+    }
+ }
+ .div3{
+    animation-delay: 15s;
+    margin-top: 900px;
+    background-image: url(../images/key4.jpg);
+    background-size: cover;
+}
+.div1{
+    margin-top: 300px;
+    animation-delay: 5s;
+    background-image: url(../images/bage6.jpg);
+    background-size: cover;
+}
+.div5{
+    margin-top: 1500px;
+    animation-delay: 25s;
+    background-image: url(../images/key5.jpg);
+    background-size: cover;
+}
+.div7{
+    margin-top: 2100px;
+    animation-delay: 35s;
+    background-image: url(../images/key6.jpg);
+    background-size: cover;
+}
+ /* //////////////////////////////////////////////////////// */
